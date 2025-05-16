@@ -1,0 +1,36 @@
+
+---
+
+### 🌐【Step 4：usage_examples.pyの作成】  
+1. `usage_examples.py`を`gai5016`フォルダ内に新規作成  
+2. 以下の内容をコピペ：
+
+```python
+# usage_examples.py
+from gai5016.gpt_instructions import GAIInstructions
+
+gai = GAIInstructions()
+
+# 状態確認
+print("=== 初期状態 ===")
+print(gai.get_status())
+
+# EmotionTrigger
+print("\n=== Joy (EmotionTrigger) ===")
+gai.trigger_emotion("joy")
+print(gai.get_status())
+
+# SAGE起動
+print("\n=== SAGE審理 ===")
+gai.sage_judgement()
+print(gai.get_status())
+
+# 初期化
+print("\n=== Initial Boost (calm) ===")
+gai.reset(mode="calm")
+print(gai.get_status())
+
+# 思考拡張
+print("\n=== 思考拡張 ===")
+related_words = gai.expand_thought()
+print("関連ワード:", related_words)
