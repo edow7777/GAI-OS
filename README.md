@@ -20,9 +20,9 @@ GAI-OSは汎用AIフレームワークの統合基盤です。
 
 ## 必須モジュール（外部リポジトリ）
 
-- [SAGE_vARC]([リンク](https://github.com/edow7777/SAGE_vARC))
-- [ULI-AIs_BalanceCore]([リンク](https://github.com/edow7777/ULI-AIs_BalanceCore))
-- [ExpansionGAI]([リンク](https://github.com/edow7777/ExpansionGAI))
+- [SAGE_vARC]((https://github.com/edow7777/SAGE_vARC))
+- [ULI-AIs_BalanceCore]((https://github.com/edow7777/ULI-AIs_BalanceCore))
+- [ExpansionGAI](https://github.com/edow7777/ExpansionGAI))
 - [TraceGAI]([リンク](https://github.com/edow7777/TraceGAI))
 - …他追加予定
 
